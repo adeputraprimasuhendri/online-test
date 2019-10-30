@@ -2,7 +2,7 @@
 @section('title', 'Home')
 @section('content')
 <div class="title m-b-md">
-    Home
+    Randomize Rewards Exercise
 </div>
 
 @endsection

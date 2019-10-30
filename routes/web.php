@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
+
+Route::get('/register', 'RandomizeReward@index')->name('register');
+Route::get('/simulate', 'RandomizeReward@simulate')->name('simulate');
+
+Route::post('/createUser','RandomizeReward@register');
